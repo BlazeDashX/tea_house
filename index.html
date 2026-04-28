@@ -1,90 +1,118 @@
 <!doctype html>
 <html>
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Tea House</title>
-</head>
+  </head>
 
-<body class="font-manrope px-4 lg:px-0 pt-4 lg:pt-0">
-
-    <section class="hero">
-        <div
-            class="parent_div flex flex-col md:flex-row justify-between items-center min-h[200px] max-w-[1300px] mx-auto">
-            <div class="left_div">
-                <div>
-                    <h1 class="md:text-7xl text-5xl font-bold ">It's good <br> tea time at The <br>Tea House</h1>
-                    <p class="text-lg text-gray-700 my-10">Tea and Botanical Solutions Supplier Give Optimum <br>
-                        Satisfaction To Your Taste Buds.</p>
-                    <button
-                        class="w-[200px] text-xl text-white rounded-lg h-[64px] bg-gradient-to-r from-[#ff8938] to-[#ff0000] ">
-                        <span>Explore More</span>
-                        <span> <i class="fa-solid fa-arrow-down -rotate-135"></i></span>
-                    </button>
-                </div>
-            </div>
-            <div class="right_div relative">
-                <img src="images/banner.png" alt="" class="relative top-[120px]">
-                <div
-                    class=" w-52 h-18 md:w-[255px] md:h-[100px]  rounded-lg flex items-center shadow-md absolute bg-white -left-[-70px]">
-                    <span class="text-yellow-300 text-2xl md:text-4xl"><i class="fa-solid fa-star"></i></span>
-                    <div class="ml-4">
-                        <p class="text-xl md:text-4xl font-bold">5.00</p>
-                        <p class="md:text-lg">Trust Pilot Ratings</p>
-                    </div>
-                </div>
-            </div>
+  <body class="font-manrope px-4 lg:px-0 pt-4 lg:pt-0">
+    <section class="hero min-h[200px] max-w-[1300px] mx-auto">
+      <div class="parent_div flex flex-col md:flex-row justify-between items-center ">
+        <div class="left_div">
+          <div>
+            <h1 class="md:text-7xl text-5xl font-bold">
+              It's good <br />
+              tea time at The <br />Tea House
+            </h1>
+            <p class="text-lg text-gray-700 my-10">
+              Tea and Botanical Solutions Supplier Give Optimum <br />
+              Satisfaction To Your Taste Buds.
+            </p>
+            <button
+              class="w-[200px] text-xl text-white rounded-lg h-[64px] bg-gradient-to-r from-[#ff8938] to-[#ff0000]"
+            >
+              <span>Explore More</span>
+              <span> <i class="fa-solid fa-arrow-down -rotate-135"></i></span>
+            </button>
+          </div>
         </div>
+        <div class="right_div relative">
+          <img src="images/banner.png" alt="" class="relative top-[120px]" />
+          <div
+            class="w-52 h-18 md:w-[255px] md:h-[100px] rounded-lg flex items-center shadow-md absolute bg-white -left-[-70px]"
+          >
+            <span class="text-yellow-300 text-2xl md:text-4xl"
+              ><i class="fa-solid fa-star"></i
+            ></span>
+            <div class="ml-4">
+              <p class="text-xl md:text-4xl font-bold">5.00</p>
+              <p class="md:text-lg">Trust Pilot Ratings</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
-
-    <section class="featured_products my-[15%]">
-        <div class="flex flex-col gap-5 items-center justify-center ">
-            <h1 class="text-3xl md:text-[45px] font-bold">Our Featured Products</h1>
-            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in
-                some form, <br> by injected humour, or randomised words which don't look even slightly believable.</p>
-            <div class="card grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-                <div
-                    class="tea_cards  bg-gradient-to-b from-[#f4f4f4] to-[#ffffff] p-4 rounded-lg flex flex-col items-center justify-center text-center">
-                    <img src="images/tea-1.png" alt="">
-                    <h2 class="text-2xl font-bold">Milk Tea</h2>
-                    <p>Creamer could be replaced <br> by fresh milk</p>
-                </div>
-                <div
-                    class="tea_cards  bg-gradient-to-b from-[#f4f4f4] to-[#ffffff] p-4 rounded-lg flex flex-col items-center justify-center text-center">
-                    <img src="images/tea-2.png" alt="">
-                    <h2 class="text-2xl font-bold">Black Tea</h2>
-                    <p>Creamer could be replaced <br> by fresh milk</p>
-                </div>
-                <div 
-                    class="tea_cards  bg-gradient-to-b from-[#f4f4f4] to-[#ffffff] p-4 rounded-lg flex flex-col items-center justify-center text-center">
-                    <img src="images/tea-3.png" alt="">
-                    <h2 class="text-2xl font-bold">Lemon Tea</h2>
-                    <p>Creamer could be replaced <br> by fresh milk</p>
-                </div>
-                <div
-                    class="tea_cards  bg-gradient-to-b from-[#f4f4f4] to-[#ffffff] p-4 rounded-lg flex flex-col items-center justify-center text-center">
-                    <img src="images/tea-4.png" alt="">
-                    <h2 class="text-2xl font-bold">OrangeGreen Tea</h2>
-                    <p>Creamer could be replaced <br> by fresh milk</p>
-                </div>
-            </div>
+    <section class="featured_products min-h[200px] min-h[200px] max-w-[1300px] mx-auto mt-50">
+        <h1 class="text-5xl md:text-[45px] font-bold text-center pb-3">Our Featured Products</h1>
+        <p class=" text-gray-700 text-center pb-10">
+          There are many variations of passages of Lorem Ipsum available, but
+          the majority have suffered alteration in some form, <br />
+          by injected humour, or randomized words which don't look even slightly
+          believable.
+        </p>
+        <div class="featured_parents grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+          <div
+            class="tea_cards bg-gradient-to-b from-[#f4f4f4] to-[#ffffff] p-4 rounded-lg text-center min-w-[200px] min-h-[300px]"
+          >
+            <img src="images/tea-1.png" class="mx-auto block" alt="" />
+            <h2 class="text-2xl font-bold pt-4">Milk Tea</h2>
+            <p>
+              Creamer could be replaced <br />
+              by fresh milk
+            </p>
+          </div>
+          <div
+            class="tea_cards bg-gradient-to-b from-[#f4f4f4] to-[#ffffff] p-4 rounded-lg text-center min-w-[200px] min-h-[300px]"
+          >
+            <img src="images/tea-2.png" class="mx-auto block" alt="" />
+            <h2 class="text-2xl font-bold pt-4">Black Tea</h2>
+            <p>
+              Creamer could be replaced <br />
+              by fresh milk
+            </p>
+          </div>
+          <div
+            class="tea_cards bg-gradient-to-b from-[#f4f4f4] to-[#ffffff] p-4 rounded-lg text-center min-w-[200px] min-h-[300px]"
+          >
+            <img src="images/tea-3.png" class="mx-auto block" alt="" />
+            <h2 class="text-2xl font-bold pt-4">Lemon Tea</h2>
+            <p>
+              Creamer could be replaced <br />
+              by fresh milk
+            </p>
+          </div>
+          <div
+            class="tea_cards bg-gradient-to-b from-[#f4f4f4] to-[#ffffff] p-4 rounded-lg text-center min-w-[200px] min-h-[300px]"
+          >
+            <img src="images/tea-4.png" class="mx-auto block" alt="" />
+            <h2 class="text-2xl font-bold pt-4">Green Tea</h2>
+            <p>
+              Creamer could be replaced <br />
+              by fresh milk
+            </p>
+          </div>
         </div>
+      </div>
     </section>
 
-    <section class="gallery"></section>
+    <section class="gallery min-h[200px] max-w-[1300px] mx-auto">
 
-    <section class="clients"></section>
+    </section>
 
-    <section class="news_and_events"></section>
+    <section class="clients min-h[200px] max-w-[1300px] mx-auto"></section>
+
+    <section class="news_and_events min-h[200px] max-w-[1300px] mx-auto"></section>
 
     <section class="footer"></section>
-
-</body>
-
+  </body>
 </html>
